@@ -37,7 +37,7 @@
             </svg></div>
         <div class="pageNav">
             <a href="#">
-                <p>Home</p>
+                <p class="active">Home</p>
             </a>
             <a href="#">
                 <p>Why Choose Us</p>
@@ -73,114 +73,268 @@
                         </span>
                     </div>
                 </div>
-                <div class="headerContentCTA">
-                    <div class="addCTAbtn">
-                        +
+                <a href="#">
+                    <div class="headerContentCTA">
+                        <div class="addCTAbtn">
+                            +
+                        </div>
+                        <div class="findOutMoreCTAbtn">Find Out More</div>
                     </div>
-                    <div class="findOutMoreCTAbtn">Find Out More</div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
     <section class="OurServices">
-        <div class="OurServicesmainWrap fixedResponse">
-            <h1>Our Services</h1>
-            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
-                double
-                click me.
-            </p>
-            <div class="servicesWrapper">
-                <div class="serviceCard">
-                    <h1>
-                        Application Design & Development
-                    </h1>
-                    <p>
-                        Building custom applications, application’s prototypes with detailed analysis and providing
-                        support on every cycle of
-                        developed application.
-                    </p>
+        <div class="OurServicesTitleWrap">
+            <div class="OurServicesTitle fixedResponse">
+                <h1>Our Services</h1>
+                <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or
+                    double
+                    click me.
+                </p>
+            </div>
+        </div>
+        <div class="ServicesWrapper fixedResponse">
+            <div class="serviceCard">
+                <h1>
+                    Application Design & Development
+                </h1>
+                <p>
+                    Building custom applications, application’s prototypes with detailed analysis and providing
+                    support on every cycle of
+                    developed application.
+                </p>
+                <a href="#">
                     <div class="learnMoreWrap">
                         <p>+</p>
                         <p>Learn More</p>
 
                     </div>
-                </div>
-                <div class="serviceCard">
-                    <h1>
-                        Enterprise Software Development
-                    </h1>
-                    <p>
-                        Working with enterprises for long term software solutions for their problems and needs.
-                    </p>
+                </a>
+            </div>
+            <div class="serviceCard">
+                <h1>
+                    Enterprise Software Development
+                </h1>
+                <p>
+                    Working with enterprises for long term software solutions for their problems and needs.
+                </p>
+                <a href="#">
                     <div class="learnMoreWrap">
                         <p>+</p>
                         <p>Learn More</p>
 
                     </div>
-                </div>
-                <div class="serviceCard">
-                    <h1>
-                        IT Consulting Services
-                    </h1>
-                    <p>
-                        Providing overall IT Consulting services to an applicant, employee or employer to meet their
-                        goals.
-                    </p>
+                </a>
+            </div>
+            <div class="serviceCard">
+                <h1>
+                    IT Consulting Services
+                </h1>
+                <p>
+                    Providing overall IT Consulting services to an applicant, employee or employer to meet their
+                    goals.
+                </p>
+                <a href="#">
                     <div class="learnMoreWrap">
                         <p>+</p>
                         <p>Learn More</p>
 
                     </div>
-                </div>
-                <div class="serviceCard">
-                    <h1>
-                        SDLC Support
-                    </h1>
-                    <p>
-                        Extending support to employee, employer on any phases of Software Development Life Cycle for
-                        timely delivering of the
-                        project.
-                    </p>
+                </a>
+            </div>
+            <div class="serviceCard">
+                <h1>
+                    SDLC Support
+                </h1>
+                <p>
+                    Extending support to employee, employer on any phases of Software Development Life Cycle for
+                    timely delivering of the
+                    project.
+                </p>
+                <a href="#">
                     <div class="learnMoreWrap">
                         <p>+</p>
                         <p>Learn More</p>
 
                     </div>
-                </div>
-                <div class="serviceCard">
-                    <h1>
-                        Skill Rental
-                    </h1>
-                    <p>
-                        Rent any skill or support you need for your project.
-                    </p>
+                </a>
+            </div>
+            <div class="serviceCard">
+                <h1>
+                    Skill Rental
+                </h1>
+                <p>
+                    Rent any skill or support you need for your project.
+                </p>
+                <a href="#">
                     <div class="learnMoreWrap">
                         <p>+</p>
                         <p>Learn More</p>
 
                     </div>
-                </div>
-                <div class="serviceCard">
-                    <h1>
-                        Operating Models
-                    </h1>
-                    <p>
-                        Providing platforms for feasible models, ideas, concepts brought by individuals.
+                </a>
+            </div>
+            <div class="serviceCard">
+                <h1>
+                    Operating Models
+                </h1>
+                <p>
+                    Providing platforms for feasible models, ideas, concepts brought by individuals.
 
-                    </p>
+                </p>
+                <a href="#">
                     <div class="learnMoreWrap">
                         <p>+</p>
                         <p>Learn More</p>
 
                     </div>
-                </div>
-
+                </a>
             </div>
         </div>
     </section>
-    <section class="testimonial">
 
+    <section class="testimonial">
+        <!-- <div class="testimonialLeftBtn" onclick="leftBtn()">left</div>
+        <div class="testimonialRightBtn" onclick="rightBtn()">right</div> -->
+        <div id="testimo1" class="testimonialsWrap fixedResponse testimonialReviewShow">
+            <h1>Testimonials</h1>
+            <h1>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+            </h1>
+            <span>
+                Jason Strauss
+                <br>
+                CEO of ML Associates
+            </span>
+            <div class="testimonialDots">
+                <div id="dot1" class="dot dotActive" onclick="siftTest(id)"></div>
+                <div id="dot2" class="dot" onclick="siftTest(id)"></div>
+                <div id="dot3" class="dot" onclick="siftTest(id)"></div>
+            </div>
+        </div>
+        <div id="testimo2" class="testimonialsWrap fixedResponse ">
+            <h1>Testimonials</h1>
+            <h1>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+            </h1>
+            <span>
+                Martin Davison
+                <br>
+                Senior VP of Hardy Construction
+
+            </span>
+            <div class="testimonialDots">
+                <div id="dot1" class="dot" onclick="siftTest(id)"></div>
+                <div id="dot2" class="dot dotActive" onclick="siftTest(id)"></div>
+                <div id="dot3" class="dot" onclick="siftTest(id)"></div>
+            </div>
+        </div>
+        <div id="testimo3" class="testimonialsWrap fixedResponse">
+            <h1>Testimonials</h1>
+            <h1>“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+            </h1>
+            <span>
+                Clara Rodriguez
+                <br>
+                Executive Director of Aurello Inc.
+            </span>
+            <div class="testimonialDots">
+                <div id="dot1" class="dot " onclick="siftTest(id)"></div>
+                <div id="dot2" class="dot" onclick="siftTest(id)"></div>
+                <div id="dot3" class="dot dotActive" onclick="siftTest(id)"></div>
+            </div>
+        </div>
     </section>
+    <section class="finalSection">
+        <div class="finalSectionAlign fixedResponse">
+            <div class="readyToExploreWrap">
+                <h1>Ready to find out more?
+                </h1>
+                <div class="headerContentSecondary">
+                    <div class="contentIndicate"></div>
+                    <span>I'm a paragraph. Click here to add your own text and edit me. click “Edit Text” or double
+                        click
+                        me to add your own
+                        content and make changes to the font. I’m a great place for you to tell a story and let your
+                        users know a little more
+                        about you.
+                    </span>
+                </div>
+            </div>
+            <a href="#">
+                <div class="headerContentCTA">
+                    <div class="addCTAbtn">
+                        +
+                    </div>
+                    <div class="findOutMoreCTAbtn">Get Free Evaluation</div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="contactUsFooter">
+        <div class="contactUsWrapper fixedResponse">
+            <h1>Contact Us</h1>
+            <form action="post" id="contactUsForm">
+                <div class="fname">
+                    <label for="fname">First Name*</label>
+                    <input type="text" id="fname" required>
+                </div>
+                <div class="lname">
+                    <label for="lname">Last Name*</label>
+                    <input type="text" id="lname" required>
+                </div>
+                <div class="email">
+                    <label for="email">Email*</label>
+                    <input type="text" id="email" required>
+                </div>
+
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea type="text" id="message"> </textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="footer">
+                <p>Address. 500 Terry Francois Street San Francisco, CA 94158
+                </p>
+                <p>Tel. 123-456-7890
+                </p>
+                <p>Email. info@mysite.com
+                </p>
+            </div>
+            <div class="footerLegal">
+                © 2021 by Implementation Partners. Proudly created by <a href="https://www.codehimalaya.com/">Code
+                    Himalaya</a>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // function leftBtn() {
+        //     console.log("left clicked")
+        // }
+        // function rightBtn() {
+        //     console.log("right clicked")
+        // }
+        function siftTest(id) {
+            if (id === "dot1") {
+                document.getElementById("testimo1").classList.add("testimonialReviewShow")
+                document.getElementById("testimo2").classList.remove("testimonialReviewShow")
+                document.getElementById("testimo3").classList.remove("testimonialReviewShow")
+
+            }
+            else if (id === "dot2") {
+                document.getElementById("testimo1").classList.remove("testimonialReviewShow")
+                document.getElementById("testimo2").classList.add("testimonialReviewShow")
+                document.getElementById("testimo3").classList.remove("testimonialReviewShow")
+
+            }
+            else {
+                document.getElementById("testimo1").classList.remove("testimonialReviewShow")
+                document.getElementById("testimo2").classList.remove("testimonialReviewShow")
+                document.getElementById("testimo3").classList.add("testimonialReviewShow")
+            }
+        }
+    </script>
 </body>
 
 </html>
