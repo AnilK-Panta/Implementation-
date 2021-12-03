@@ -33,6 +33,12 @@ a {
   width: 80%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.logo svg {
+  height: 50px;
+  width: fit-content;
+  background-color: violet;
 }
 .pageNav {
   display: flex;
