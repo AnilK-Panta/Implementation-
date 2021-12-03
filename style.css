@@ -1,0 +1,246 @@
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-9");
+@import url("https://fonts.googleapis.com/css2?family=Spinnaker&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Spinnaker", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
+}
+:root {
+  --primary-color: #1a2b6d;
+  --secondary-color: #d41317;
+}
+h1 {
+  font-family: "Spinnaker", sans-serif;
+}
+h3,
+p,
+span {
+  font-family: "Helvetica Neue", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.fixedResponse {
+  width: 981px;
+  /* background-color: turquoise; */
+}
+
+/* navbar section start  */
+.navbar {
+  padding: 2rem 2rem;
+  background-color: #fff;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.pageNav {
+  display: flex;
+  gap: 50px;
+}
+.pageNav p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1a2b63;
+  transition: color 0.4s ease-in-out 0s;
+}
+.pageNav p:hover {
+  color: #d41317;
+}
+/* navbar section end  */
+
+/* hedar image section stert  */
+.header {
+  width: 85%;
+  height: 534px;
+}
+.headerImgWrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerImg {
+  width: 100%;
+  height: auto;
+}
+
+/* header image section end  */
+
+/* headerContent section start  */
+.headerContent {
+  width: 100%;
+  height: 80% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerContentmainWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+.headerContentWrap {
+  right: 0;
+  top: 0;
+  transform: translate(-10%, -40%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.headerContentText {
+  width: 520px;
+  padding: 3rem 5rem 3rem 3rem;
+  background-color: rgba(242, 242, 242, 1);
+}
+.headerContentText h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  color: var(--primary-color);
+}
+.headerContentSecondary {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.contentIndicate {
+  width: 113px;
+  height: 3px;
+  flex-shrink: 0;
+  margin: 1rem 0;
+  background-color: var(--primary-color);
+}
+.headerContentSecondary span {
+  font-size: 1rem;
+  line-height: 1.7em;
+  letter-spacing: 0.05em;
+  font-family: "helvetica-w01-light", sans-serif;
+  font-weight: lighter;
+  color: #000000d9;
+}
+.headerContentCTA {
+  background-color: turquoise;
+  display: flex;
+}
+.addCTAbtn {
+  font-size: 24px;
+  width: 52px;
+  height: 52px;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "helvetica-w01-light", sans-serif;
+  transition: background-color 0.4s ease-in-out 0s;
+}
+.addCTAbtn:hover {
+  background-color: var(--secondary-color);
+}
+.findOutMoreCTAbtn {
+  color: white;
+  font-size: 1rem;
+  width: 170px;
+  height: 52px;
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "helvetica-w01-light", sans-serif;
+  transition: background-color 0.4s ease-in-out 0s;
+}
+.findOutMoreCTAbtn:hover {
+  background-color: var(--primary-color);
+}
+/* headerContent section end  */
+
+/* our services section start  */
+.OurServices {
+  width: 100%;
+  height: fit-content;
+  height: 300px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.OurServicesmainWrap h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 100;
+}
+.OurServicesmainWrap p {
+  margin-top: 1.5rem;
+  width: 50%;
+  font-size: 1rem;
+  line-height: 1.7em;
+  letter-spacing: 0.04em;
+  font-family: "helvetica-w01-light", sans-serif;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.912);
+}
+.servicesWrapper {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.serviceCard {
+  width: 240px;
+  padding: 2rem;
+  background-color: #f2f2f2;
+  position: relative;
+  z-index: 100;
+}
+.serviceCard h1 {
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  color: var(--primary-color);
+}
+.serviceCard p {
+  font-size: 1rem;
+  line-height: 1.7em;
+  letter-spacing: 0.04em;
+  color: #000000d9;
+  width: 100%;
+  font-family: "helvetica-w01-light", sans-serif;
+}
+.learnMoreWrap {
+  width: fit-content;
+  padding: 0.5em;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  margin-top: 1rem;
+}
+.learnMoreWrap:hover > p {
+  color: var(--primary-color);
+}
+.learnMoreWrap p {
+  font-size: 1rem;
+  margin: 0;
+  width: auto;
+  color: var(--secondary-color);
+  transition: color 0.4s ease-in-out 0s;
+}
+.learnMoreWrap p:first-child {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.serviceCard::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  border: 3px solid #f2f2f2;
+  z-index: -1;
+}
+/* our services section end  */
+
+/* testimonial section start  */
+
+/* testimonial section end  */
