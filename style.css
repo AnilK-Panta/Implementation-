@@ -487,3 +487,38 @@ textarea:hover {
   color: #fff;
 }
 /* contact us section end  */
+
+/* why choose us reason section start  */
+.whyChooseUsReasons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.whyChooseUsWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 5rem;
+}
+.reasonOne {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 70%;
+}
+.reasonOne span {
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+  font-weight: lighter;
+  color: var(--primary-color);
+  font-family: "Spinnaker", sans-serif;
+}
+.reasonOne p {
+  font-size: 1rem;
+  font-family: "helvetica-w01-light", sans-serif;
+  color: #000000d9;
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+}
+/* why choose us reason section end  */
