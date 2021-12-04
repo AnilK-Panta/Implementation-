@@ -104,6 +104,17 @@ a {
   width: 520px;
   padding: 3rem 5rem 3rem 3rem;
   background-color: rgba(242, 242, 242, 1);
+  animation-name: slideBox;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes slideBox {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .headerContentText h1 {
   font-size: 4rem;
@@ -361,6 +372,7 @@ a {
   align-self: stretch;
   padding: 4rem 9rem;
 }
+
 .readyToExploreWrap h1 {
   font-size: 3.5rem;
   font-weight: 100;
