@@ -60,6 +60,7 @@ a {
 }
 .mobileHamburger {
   display: none;
+  cursor: pointer;
 }
 /* navbar section end  */
 
@@ -552,6 +553,46 @@ textarea:hover {
 }
 /* why choose us reason section end  */
 
+/* mobile navbar start  */
+.mobilenavbarWrap a:hover {
+  color: var(--secondary-color);
+}
+.mobileNavbarSection {
+  position: absolute;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.mobilenavClosebar {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+.mobilenavbarWrap {
+  width: 80%;
+  height: 80%;
+}
+.mobilenavbarWrap ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.mobilenavbarWrap ul li {
+  list-style: none;
+  font-size: 1rem;
+}
+
+/* mobile navbar end  */
+
 @media (max-width: 980px) {
   .fixedResponse {
     max-width: 100%;
@@ -585,9 +626,12 @@ textarea:hover {
   .readyToExploreWrap {
     padding: 2rem 2rem;
   }
-  .headerContentText {
-    max-width: 520px;
+  .header {
+    height: auto;
   }
+  /* .headerContentText {
+    width: 100% !important;
+  } */
 }
 @media (max-width: 800px) {
   .navbar {
@@ -599,6 +643,7 @@ textarea:hover {
   .pageNav {
     display: none;
   }
+
   .header {
     height: auto;
   }
@@ -606,8 +651,8 @@ textarea:hover {
     width: 100%;
   }
   .headerContentText {
-    width: 100%;
-    padding: 2rem 1rem;
+    width: 100% !important;
+    padding: 2rem 0rem;
   }
   .lname,
   .fname {

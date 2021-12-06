@@ -7,9 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Implementation Partners</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
+    <!-- -----------mobile navbar start-------------------- -->
+    <section class="mobileNavbarSection" id="mobileNavbarSection">
+        <div class="mobilenavClosebar" onclick="closeNav()">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="mobilenavbarWrap">
+            <ul>
+                <a href="index.html" onclick="closeNav()">
+                    <li>Home</li>
+                </a>
+                <a href="chooseUs.html" onclick="closeNav()">
+                    <li class="active">Why Choose Us</li>
+                </a><a href="index.html#OurServices" onclick="closeNav()">
+                    <li>Our Services</li>
+                </a><a href="industries.html" onclick="closeNav()">
+                    <li>Industries</li>
+                </a><a href="index.html#contactUsFooter" onclick="closeNav()">
+                    <li>Contact Us</li>
+                </a>
+            </ul>
+
+
+        </div>
+    </section>
+    <!-- -----------mobile navbar end-------------------- -->
     <section class="navbar">
         <div class="logo"><svg width="913" height="482" viewBox="0 0 913 482" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
@@ -48,6 +75,9 @@
             </a><a href="index.html#contactUsFooter">
                 <p>Contact Us</p>
             </a>
+        </div>
+        <div class="mobileHamburger" onclick="openNav()">
+            <i class="fas fa-bars"></i>
         </div>
     </section>
 
@@ -167,7 +197,14 @@
             </div>
         </div>
     </section>
-
+    <script>
+        function closeNav() {
+            document.getElementById("mobileNavbarSection").style.display = "none"
+        }
+        function openNav() {
+            document.getElementById("mobileNavbarSection").style.display = "flex"
+        }
+    </script>
 </body>
 
 </html>
