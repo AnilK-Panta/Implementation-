@@ -33,7 +33,7 @@ a {
 
 /* navbar section start  */
 .navbar {
-  padding: 2rem 2rem;
+  padding: 0.5rem 2rem;
   background-color: #fff;
   width: 80%;
   display: flex;
@@ -41,9 +41,8 @@ a {
   align-items: center;
 }
 .logo svg {
-  height: 50px;
+  height: 70px;
   width: fit-content;
-  background-color: violet;
 }
 .pageNav {
   display: flex;
@@ -594,6 +593,9 @@ textarea:hover {
 /* mobile navbar end  */
 
 @media (max-width: 980px) {
+  .logo svg {
+    height: 50px;
+  }
   .fixedResponse {
     max-width: 100%;
   }
